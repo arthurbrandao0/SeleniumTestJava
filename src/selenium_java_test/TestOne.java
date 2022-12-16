@@ -9,8 +9,6 @@ public class TestOne {
  
     public static void main(String[] args)  throws InterruptedException {
        
-        System.setProperty("webdriver.chrome.driver", "F:/Selenium/chromedriver.exe");
-       
         WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();         
  
